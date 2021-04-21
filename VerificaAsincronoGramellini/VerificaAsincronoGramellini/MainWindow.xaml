@@ -7,10 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnEstrai" Content="Estrai numero!" HorizontalAlignment="Left" Margin="313,203,0,0" VerticalAlignment="Top" Width="134" Height="62" Click="btnEstrai_Click" Background="#FFB9FFF5"/>
-        <Label x:Name="lblLettera" Content="A" HorizontalAlignment="Left" Margin="345,76,0,0" VerticalAlignment="Top" Height="114" Width="64" FontSize="72" Background="#FF78E05A"/>
-        <Label x:Name="lblParolaEstratta" Content="" HorizontalAlignment="Left" Margin="313,298,0,0" VerticalAlignment="Top" Height="39" Width="134" Background="#FFF8B0FF" FontSize="22"/>
-        <TextBlock HorizontalAlignment="Left" Margin="313,277,0,0" TextWrapping="Wrap" Text="Parola estratta:" VerticalAlignment="Top" Width="134" TextAlignment="Center"/>
+        <Button x:Name="btnEstrai" Content="Estrai numero!" HorizontalAlignment="Left" Margin="514,193,0,0" VerticalAlignment="Top" Width="134" Height="62" Click="btnEstrai_Click" Background="#FFB9FFF5"/>
+        <Label x:Name="lblLettera" Content="A" HorizontalAlignment="Left" Margin="546,66,0,0" VerticalAlignment="Top" Height="114" Width="64" FontSize="72" Background="#FF78E05A"/>
+        <Label x:Name="lblParolaEstratta" Content="" HorizontalAlignment="Left" Margin="514,288,0,0" VerticalAlignment="Top" Height="39" Width="134" Background="#FFF8B0FF" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="514,267,0,0" TextWrapping="Wrap" Text="Parola estratta:" VerticalAlignment="Top" Width="134" TextAlignment="Center"/>
+        <ListBox x:Name="lstParole" HorizontalAlignment="Left" Height="132" Margin="128,209,0,0" VerticalAlignment="Top" Width="186"/>
+        <TextBox x:Name="txtLunghezzaParolaDaEstrarre" HorizontalAlignment="Left" Height="38" Margin="272,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="128,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="139"><Run Text="Inserire la lunghezza della parola da estrarre"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="btnLunghezzaParola" Content="Conferma" HorizontalAlignment="Left" Margin="128,115,0,0" VerticalAlignment="Top" Width="186" Height="25" Click="btnLunghezzaParola_Click" Background="#FFFFF3BD"/>
+        <TextBlock HorizontalAlignment="Left" Margin="128,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="186" Text="Lista parole:" FontSize="22" TextAlignment="Center" Background="#FFE3FFBE"/>
 
     </Grid>
 </Window>
