@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnEstrai" Content="Estrai numero!" HorizontalAlignment="Left" Margin="313,203,0,0" VerticalAlignment="Top" Width="134" Height="62" Click="btnEstrai_Click"/>
+        <Label x:Name="lblLettera" Content="y" HorizontalAlignment="Left" Margin="313,113,0,0" VerticalAlignment="Top" Height="54" Width="134" FontSize="24"/>
+        <Label x:Name="lblParolaEstratta" Content="" HorizontalAlignment="Left" Margin="313,298,0,0" VerticalAlignment="Top" Height="34" Width="134"/>
+        <TextBlock HorizontalAlignment="Left" Margin="313,277,0,0" TextWrapping="Wrap" Text="Parola estratta:" VerticalAlignment="Top" Width="134"/>
+
     </Grid>
 </Window>
